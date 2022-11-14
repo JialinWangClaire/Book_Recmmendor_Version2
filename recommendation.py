@@ -14,4 +14,4 @@ for each in lines:
 choice1=np.dot(np.array(value),np.array(cof1))
 choice2=np.dot(np.array(value),np.array(cof2))
 choice1=choice1*(-1)
-choice2=choice2*(-1)
+choice2=(choice2+1000)/100
